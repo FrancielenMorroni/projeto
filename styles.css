@@ -1,0 +1,42 @@
+@import url("styles/contador.css");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins&display=swap');
+
+:root{
+    --fonte-principal: 'Poppins', sans-serif;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f57689;
+    background-image: url("./img/background.jpg");
+    background-size: cover;
+    
+}
+
+.novidades{
+    font: bolder;
+    font-size: 50px;
+    font-family: var(--fonte-principal);
+    
+}
+
+.contador {
+    display:flex;
+    align-items: center;
+    position: relative;
+}
+
+.contador-item {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.contador-item span {
+    display: block;
+    font-size: 20px;
+}
+
